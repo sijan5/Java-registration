@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registration">
+  <grid id="27dc6" binding="Mainpanel" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="14" y="-2" width="679" height="470"/>
+    </constraints>
+    <properties>
+      <background color="-8154470"/>
+      <font name="MV Boli" size="16"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="46f94" class="javax.swing.JLabel" binding="icon">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <icon value="newuser.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d58f9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Name "/>
+        </properties>
+      </component>
+      <component id="33c54" class="javax.swing.JTextField" binding="tfname">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7e0ae" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Fathers Name"/>
+        </properties>
+      </component>
+      <component id="ba086" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Mothers Namer"/>
+        </properties>
+      </component>
+      <component id="79ee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="f6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Contact"/>
+        </properties>
+      </component>
+      <component id="ab21" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="d844c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <horizontalAlignment value="0"/>
+          <labelFor value="4f700"/>
+          <text value="Confirm password"/>
+        </properties>
+      </component>
+      <component id="17a" class="javax.swing.JTextField" binding="tffathername">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="e95d9" class="javax.swing.JTextField" binding="tfmothername">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="499a8" class="javax.swing.JTextField" binding="tfaddress">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="a3b78" class="javax.swing.JTextField" binding="tfcontact">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b4ba4" class="javax.swing.JPasswordField" binding="tfpassword">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="4f700" class="javax.swing.JPasswordField" binding="tfconfirmpassword">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="7ebba" class="javax.swing.JButton" binding="btnregester">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9787311"/>
+          <font name="MV Boli" size="16"/>
+          <text value="Regester"/>
+        </properties>
+      </component>
+      <component id="68009" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Date of birth"/>
+        </properties>
+      </component>
+      <component id="1759d" class="javax.swing.JComboBox" binding="cbdate">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+            <item value="11"/>
+            <item value="12"/>
+            <item value="13"/>
+            <item value="14"/>
+            <item value="15"/>
+            <item value="16"/>
+            <item value="17"/>
+            <item value="18"/>
+            <item value="19"/>
+            <item value="20"/>
+            <item value="21"/>
+            <item value="22"/>
+            <item value="23"/>
+            <item value="24"/>
+            <item value="25"/>
+            <item value="26"/>
+            <item value="27"/>
+            <item value="28"/>
+            <item value="29"/>
+            <item value="30"/>
+            <item value="31"/>
+            <item value="32"/>
+          </model>
+        </properties>
+      </component>
+      <component id="36cf8" class="javax.swing.JComboBox" binding="cbmonth">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="JANUARY"/>
+            <item value="FEBRUARY"/>
+            <item value="MARCH"/>
+            <item value="APRIL"/>
+            <item value="MAY"/>
+            <item value="JUNE"/>
+            <item value="JULY"/>
+            <item value="AUGUST"/>
+            <item value="SEPTEMBER"/>
+            <item value="OCTOBER"/>
+            <item value="NOVEMBER"/>
+            <item value="DECEMBER"/>
+          </model>
+        </properties>
+      </component>
+      <component id="8527e" class="javax.swing.JComboBox" binding="cbyear" custom-create="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1980"/>
+            <item value="1981"/>
+            <item value="1982"/>
+            <item value="1983"/>
+            <item value="1984"/>
+            <item value="1985"/>
+            <item value="1986"/>
+            <item value="1987"/>
+            <item value="1988"/>
+            <item value="1989"/>
+            <item value="1990"/>
+            <item value="1991"/>
+            <item value="1992"/>
+            <item value="1993"/>
+            <item value="1994"/>
+            <item value="1995"/>
+            <item value="1996"/>
+            <item value="1997"/>
+            <item value="1998"/>
+            <item value="1999"/>
+            <item value="2000"/>
+            <item value="2001"/>
+            <item value="2002"/>
+            <item value="2003"/>
+            <item value="2004"/>
+            <item value="2005"/>
+            <item value="2006"/>
+            <item value="2007"/>
+            <item value="2008"/>
+            <item value="2009"/>
+            <item value="2010"/>
+            <item value="2011"/>
+            <item value="2012"/>
+            <item value="2013"/>
+            <item value="2014"/>
+            <item value="2015"/>
+            <item value="2016"/>
+            <item value="2017"/>
+            <item value="2018"/>
+            <item value="2019"/>
+            <item value="2020"/>
+            <item value="2021"/>
+            <item value="2022"/>
+            <item value="2023"/>
+          </model>
+          <name value=""/>
+        </properties>
+      </component>
+      <component id="f1093" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MV Boli" size="16"/>
+          <text value="New student Regestrationform"/>
+        </properties>
+      </component>
+      <component id="cbc0b" class="javax.swing.JButton" binding="btncancel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1296588"/>
+          <font name="MV Boli" size="16"/>
+          <text value="cancel"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
